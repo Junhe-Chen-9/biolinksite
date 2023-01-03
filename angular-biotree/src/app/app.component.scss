@@ -1,0 +1,29 @@
+
+
+
+
+.app__container{
+    width: var(--container-width-sm);
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+
+
+/* media queries */
+@media (min-width:550px){
+    .app__container{
+        width: var(--container-width-lg);
+    }
+}
+
+@media (min-width:400px){
+    .app__container{
+        width: var(--container-width-md);
+        padding: 0;
+    }
+}

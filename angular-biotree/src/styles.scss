@@ -45,7 +45,7 @@ html,body
 
 }
 @import "../node_modules/bootstrap/scss/bootstrap";
-body{
+body,html{
     background-color: var(--color-bg);
     background-image: url(./assets/axiom-pattern.png);
 }

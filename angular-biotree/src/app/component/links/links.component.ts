@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./links.component.scss']
 })
 export class LinksComponent {
+  mailto(emailAddress: string, emailSubject: any) {
+    return "mailto:" + emailAddress + "?subject=" + emailSubject
+}
 
 }

@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "angular-biotree/dist/angular-biotree",
+    "public": "/angular-biotree/dist/angular-biotree",
     "ignore": [
       "firebase.json",
       "**/.*",
